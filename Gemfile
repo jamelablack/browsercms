@@ -1,6 +1,11 @@
 source 'http://rubygems.org'
 
 ruby '2.0.0'
+gem 'rails', '~> 4.1.2'
+gem 'sprockets', '~> 2.8.0'
+gem 'sprockets-rails', '~> 2.0.0'
+gem 'railties', '~> 4.1.2'
+gem 'actionpack', '~> 4.1.2'
 
 # Load this project as a gem.
 gemspec
@@ -8,7 +13,7 @@ gem "mysql2"
 
 gem 'yard', :groups=>[:development, :test]
 gem 'bluecloth', :groups=>[:development, :test] # For YARD
-gem 'paperclip', '~> 3.4.1' 
+gem 'paperclip', '~> 4.1.1' 
 
 # gem 'query_reviewer' # Enable for performance tuning
 
